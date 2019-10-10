@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dbfef1f51aa243beae106c3ad04278a5" Name="Diagram1">
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.CTHoaDon" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.HoaDon" Width="1.5" PointX="7.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.KHACHHANG" Width="1.5" PointX="5.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.LOAI" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.NHANVIEN" Width="1.5" PointX="5.25" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.SANPHAM" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.sysdiagram" Width="1.5" PointX="7.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYBANHANGModel.THUONGHIEU" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK__CTHoaDon__MaHD__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK__CTHoaDon__MaSp__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK__HoaDon__MaKH__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK__HoaDon__MaNV__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK__KHACHHANG__MASP__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK__SANPHAM__MALOAI__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYBANHANGModel.FK__SANPHAM__MATH__3C69FB99" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
